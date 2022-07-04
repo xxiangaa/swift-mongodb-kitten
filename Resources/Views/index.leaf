@@ -23,12 +23,14 @@
 <table>
 <tr>
     <th>Name</th>
+    <th>ID</th>
     <th>Password</th>
     <th>Register Time</th>
 </tr>
 #for(kitten in kittens):
  <tr>
      <td><a href="/kittens/#(kitten.name)">#(kitten.name)</a></td>
+     <td>#(kitten._id)</td>
      <td>#(kitten.color)</td>
      <td>#date(kitten.lastUpdateTime, "MM-dd-y HH:mm")</td>
  </tr>

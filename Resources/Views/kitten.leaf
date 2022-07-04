@@ -24,6 +24,10 @@
   <th>Password</th>
   <td>#(color)</td>
 </tr>
+<tr>
+  <th>ID</th>
+  <td>#(_id)</td>
+</tr>
 
 </table>
 
