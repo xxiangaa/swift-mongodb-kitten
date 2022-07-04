@@ -1,3 +1,8 @@
+How to run?
+1. cd swift-mongodb-kitten
+2. swift bulid
+3. swift run
+
 # MongoDB + Vapor Example Application
 
 This repository contains an example application built using [Vapor 4](vapor.codes) along with version 1 of the [MongoDB Swift driver](https://github.com/mongodb/mongo-swift-driver).
